@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+/* header */
+
+.header {
+    background: rgb(253, 253, 253);
+    width: 100%;
+    height: 140px;
+    margin-bottom: 32px;
+}
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+}
+.main-logo {
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.logo {
+    height: 50px;
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    width: 70%;
+}
+nav>a {
+   text-decoration: none;
+   color: black;
+   letter-spacing: 0.05em;
+   font-size: 16px;
+   font-family: Georgia,'Times New Roman', Times, serif;
+}
+nav>a:hover {
+color: rgb(175, 174, 174);
+}
+.right-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20px;
+
+}
+.store {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.05em;
+}
+.store:hover {
+    color: rgb(175, 174, 174);
+}
+.basket-logo{
+    height: 35px;
+}
+.search-logo {
+    height: 35px;
+}
+.black-bar {
+    display: flex;
+    justify-content: center;
+    background: rgb(41, 41, 41);
+    width: 100%;
+    height: 46px;
+}
+.offer {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+
+
+/* Turner Prize Section */
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.big-column {
+    width: 1490px;
+    height: 100%;
+}
+.turner-prize {
+    display: flex;
+    flex-direction: row;
+    width: 1490px;
+    height: 855px;
+    margin-bottom: 135px;
+}
+.turner-row-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    height: 855px;
+}
+.turner-photo {
+    height: 600px;
+    margin-bottom: 7px;
+}
+.turner-frame {
+    height: 855px;
+    
+}
+.turner-copy {
+    height: 250px;
+    
+}
+.feature-heading {
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    font-family: Georgia,'Times New Roman', Times, serif;
+    line-height: 1.35em;
+}
+.turner-text {
+    font-size: 21px;
+    font-family: Georgia,'Times New Roman', Times, serif;
+   
+}
+.copy-time {
+    color: rgb(182, 182, 182);
+    font-size: 17px;
+    font-weight: 100;
+    
+}
+.copy-time-link {
+    color:  rgb(182, 182, 182);
+    font-size: 17px;
+    font-weight: 100;
+}
+
+
+/* Three thumbs */
+
+.three-thumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 435px;
+    width: 1490;
+    margin-bottom: 300px;
+}
+.thumb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 435px;
+    width: 470px;
+}
+.thumb-photo {
+    height: 290px;
+}
+.thumb-headings {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1.4em;
+    margin-bottom: -20;
+
+}
+.moveup {
+    margin-bottom: -19px;
+}
